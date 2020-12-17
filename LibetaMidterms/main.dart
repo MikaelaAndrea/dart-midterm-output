@@ -120,7 +120,7 @@ var comp = 0;
 
 print("WELCOME");
 print('');
-print("Papel, Bato, Gunting?");
+print("Papel, Bato, Gunting? What's your Pick?");
 String compMove = getComputerMove();
 String playerMove = getPlayerMove();
 print("you: $playerMove");
@@ -142,7 +142,7 @@ comp++;
 }
 //---------------------------------------
 print('----------------------------------');
-print("Papel, Bato, Gunting?");
+print("Papel, Bato, Gunting? What's your Pick?");
 String compMove2 = getComputerMove2();
 String playerMove2 = getPlayerMove2();
 print("you: $playerMove2");
@@ -164,7 +164,7 @@ comp++;
 }
 //------------------------------------------------
 print('----------------------------------');
-print("Papel, Bato, Gunting?");
+print("Papel, Bato, Gunting? What's your Pick?");
 String compMove3 = getComputerMove3();
 String playerMove3 = getPlayerMove3();
 print("you: $playerMove3");
